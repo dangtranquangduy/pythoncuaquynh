@@ -17,6 +17,7 @@ data1 = pd.read_csv('/Users/dangtranquangduy/Downloads/quynh/Copy-of-adidas.csv'
 #dash app
 
 app = dash.Dash()
+server = app.server
 
 #layout
 app.layout = html.Div(children = [
